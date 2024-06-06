@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.name4{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.icon{
+    color:rgb(250, 247, 247);
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home{  
+    color:rgb(252, 246, 246);
+    width: 30%;
+    height: 100%;
+    background-color:black;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home i{
+    font-size: 23px;
+    padding-right: 20px;
+}
+.about{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.about a{
+    color:rgb(255, 251, 251);
+}
+.about li{
+    list-style: none;
+}
+.about li a{
+    margin: 10px;
+    text-decoration: none;
+}
+.about li:hover{
+    background-color: gray;
+
+}
+.banner{
+    height: 560px;
+    width:100%;
+    background-color: rebeccapurple;
+
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+.subcontainer{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo{
+    height: 90%;
+    width: 30%;
+    overflow: hidden;
+    background-color: black;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.photocon{
+    height: 100%;
+    width: 68%;
+    background-color: black;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.photo1 h1{
+    font-size: 40px;
+}
+.photo2{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+.photo2 h1{
+    font-size: 20px;
+}
+.photo3{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+
+}
+.icon1{
+    width: 33%;
+    height: 100px;
+    color:white;
+    background-color: black;
+}
+.icon2{
+    width: 33%;
+    height: 100px;
+    color:white;
+    background-color: black;
+}
+.icon3{
+    width: 34%;
+    height: 100px;
+    color:white;
+    background-color: black;
+}
+.icon1 i{
+    color:rgb(255, 72, 0);
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.icon2 i{
+    color:rgb(255, 72, 0);
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.icon3 i{
+    color:rgb(255, 72, 0);
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.container1{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+
+}
+.subcontainer1{
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    padding: 20px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.content1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.content1 h1{
+    font-size: 70px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content2{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    display: flex;
+    align-items: flex-start;
+}
+.content2 h2{
+    color:white;
+}
+.content3{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.content3 h2{
+    font-size: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content4{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+}
+.content4 h2{
+    font-size: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    width: 45%;
+    height:100%;
+    background-color: black;
+    padding: 10px;
+}
+.image1{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work{
+    width: 100%;
+    height:150px;
+    background-color: black;
+    padding: 20px;
+}
+.work1{
+    width: 85%;
+    height:100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.work1 h2{
+    color:rgb(248, 154, 77);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.work1 h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part{
+    width: 100%;
+    height: 760px;
+    background-color: black;
+    padding: 10px;
+}
+.part1{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part1 h2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+}
+.part2{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    margin: 10px;
+}
+.part2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.part3{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    margin: 10px;
+}
+.part3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.part4{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    margin: 10px;
+}
+.part4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.class1{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+}
+.shoot1{
+    width: 30%;
+    height: 95%;
+    background-color: black;
+    margin: 10px;
+}
+.shoot1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shoot2{
+    width: 40%;
+    height: 95%;
+    background-color: black;
+    margin: 10px;
+}
+.shoot2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shoot3{
+    width: 30%;
+    height: 95%;
+    background-color: black;
+    margin: 10px;
+}
+.shoot3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.load{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 10px;
+}
+.loadmore{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.loadmore h2{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(219, 136, 27);
+}
+.loadmore h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.profile{
+    width: 100%;
+    height: 500%;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.profile1{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    margin-right: 30px;
+}
+.profile2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.professional{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.professional img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.professional1{
+    width: 80%;
+    height: 150px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.professional1 h2{
+    color: orange;
+}
+.professional2{
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.professional3{
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.professional4{
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.professional5{
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.professional6{
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(34, 31, 31);
+    padding: 10px;
+}
+.kali1{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kali2{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+}
+.kali3{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali3 h2{
+    color: orange;
+}
+.kali4{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali4 h2{
+    color: orange;
+}
+.kali5{
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali6{
+    width: 30%;
+    height: 150px;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kali7{
+    width: 30%;
+    height: 150px;
+    color:white;
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box11{
+    width: 22%;
+    height: 100px;
+}
+.box11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box12{
+    width: 22%;
+    height: 100px;
+}
+.box12 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box13{
+    width: 22%;
+    height: 100px;
+}
+.box13 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box14{
+    width: 22%;
+    height: 100px;
+}
+.box14 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kali8{
+    width: 30%;
+    height: 150px;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.copy{
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(17, 15, 15);
+}

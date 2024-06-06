@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.blog{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.blog1{
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.blog2{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.blog3{
+    width: 90%;
+    height: 1000%;
+    background-color: black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+.blog4{
+    width: 40%;
+    height: 600%;
+    margin-right: 10px;
+}
+.blog7{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: rgba(92, 86, 86, 0.267);
+    padding: 10px;  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.blog7 h1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.blog7 h5{
+    color: orange;
+}
+.blog7 h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.blog7 i{
+    font-size: 23px;
+}
+.blog8{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(92, 86, 86, 0.267);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+.blog8 h1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.blog8 h5{
+    color: orange;
+}
+.blog8 h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.blog8 i{
+    font-size: 23px;
+}
+.blog5{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(92, 86, 86, 0.267);
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.blog5 h1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.blog5 h5{
+    color: orange;
+}
+.blog5 h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.blog5 i{
+    font-size: 23px;
+}
+.blog6{
+    width: 40%;
+    height: 1000px;
+    background-color:  rgba(68, 63, 63, 0.589);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blog10{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 23px;
+}
+.blog11{
+    width: 100%;
+    height: 800px;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.blog11 a{
+    color: white;
+}
+.kali{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(34, 31, 31);
+    padding: 10px;
+}
+.kali1{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kali2{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+}
+.kali3{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali3 h2{
+    color: orange;
+}
+.kali4{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali4 h2{
+    color: orange;
+}
+.kali5{
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali6{
+    width: 30%;
+    height: 150px;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kali7{
+    width: 30%;
+    height: 150px;
+    color:white;
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box11{
+    width: 22%;
+    height: 100px;
+}
+.box11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box12{
+    width: 22%;
+    height: 100px;
+}
+.box12 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box13{
+    width: 22%;
+    height: 100px;
+}
+.box13 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box14{
+    width: 22%;
+    height: 100px;
+}
+.box14 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kali8{
+    width: 30%;
+    height: 150px;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.copy{
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(17, 15, 15);
+}

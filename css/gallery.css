@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.gallery{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.gallery1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery2{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.gallery3{
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gallery3 a{
+    text-decoration: none;
+    color: white;
+}
+.gallery3 li{
+    list-style: none;
+}
+.gallery3 li:hover{
+    background-color: rgba(255, 166, 0, 0.336);
+}
+.gallery4{
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery5{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery6{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery7{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery8{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery9{
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery10{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery10 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery11{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery12{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery12 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery13{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery13 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery14{
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery15{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery15 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery16{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery16 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery17{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery17 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery18{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery18 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery19{
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery20{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery20 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery21{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery21 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery22{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery22 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery23{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery23 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery24{
+    width: 100%;
+    height: 200%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery25{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery25 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery26{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery26 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery27{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery27 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery28{
+    width: 23%;
+    height: 200px;
+    background-color: blue;
+}
+.gallery28 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery29{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+.gallery29 h2{
+    color: rgb(189, 127, 14);
+}
+.gallery30{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    padding: 20px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+.gallery31{
+    width: 23%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    font-size: 23px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gallery31 a{
+    text-decoration: none;
+    color: white;
+}
+.gallery31 li{
+    list-style: none;
+}
+.gallery31 li:hover{
+    background-color: rgba(255, 166, 0, 0.336);
+}
+.gallery32{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.gallery33{
+    width: 25%; 
+    height: 350px;
+    background-color: rgba(68, 68, 68, 0.336);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+.gallery33 h1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.gallery33 h5{
+    color: orange;
+}
+.gallery33 h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.gallery33 i{
+    font-size: 23px;
+}
+.gallery34{
+    width: 25%;
+    height: 350px;
+    background-color: rgba(68, 68, 68, 0.336);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+.gallery34 h1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.gallery34 h5{
+    color: orange;
+}
+.gallery34 h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.gallery35{
+    width: 25%;
+    height: 350px;
+    background-color: rgba(68, 68, 68, 0.336);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+.gallery35 h1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.gallery35 h5{
+    color: orange;
+}
+.gallery35 h2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.gallery36{
+    width: 100%;
+    height: 150%;
+    background-color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery37{
+    width: 76%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kali{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(34, 31, 31);
+    padding: 10px;
+}
+.kali1{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kali2{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+}
+.kali3{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali3 h2{
+    color: orange;
+}
+.kali4{
+    width: 30%;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali4 h2{
+    color: orange;
+}
+.kali5{
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kali6{
+    width: 30%;
+    height: 150px;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kali7{
+    width: 30%;
+    height: 150px;
+    color:white;
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box11{
+    width: 22%;
+    height: 100px;
+}
+.box11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box12{
+    width: 22%;
+    height: 100px;
+}
+.box12 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box13{
+    width: 22%;
+    height: 100px;
+}
+.box13 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box14{
+    width: 22%;
+    height: 100px;
+}
+.box14 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kali8{
+    width: 30%;
+    height: 150px;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.copy{
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(17, 15, 15);
+}
